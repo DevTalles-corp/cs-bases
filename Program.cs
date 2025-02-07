@@ -4,6 +4,7 @@
   {
     //Variables();
     //DataTypes();
-    ShowNumericTypes();
+    //ShowNumericTypes();
+    ShowStringType();
   }
 }
