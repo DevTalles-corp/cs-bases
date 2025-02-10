@@ -14,7 +14,7 @@ partial class Program
 
     Console.WriteLine($"Fecha y hora actual: {now}");
     Console.WriteLine($"Fecha actual: {today}");
-    Console.WriteLine($"Hace una sema la fecha {now} era {nowWeekAgo.ToString("dd/MM/yyyy")}");
+    Console.WriteLine($"Hace una semana la fecha {now} era {nowWeekAgo.ToString("dd/MM/yyyy")}");
     Console.WriteLine($"Fecha personalizada: {customDate}");
     Console.WriteLine($"Día de la semana: {weekDay}");
 
