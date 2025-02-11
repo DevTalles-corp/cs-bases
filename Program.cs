@@ -12,6 +12,7 @@
     //DaysOfLife();
     //DaysUntilNextBirthday();
     // TypeDifference();
-    HandleNullables();
+    // HandleNullables();
+    Operators();
   }
 }
