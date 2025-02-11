@@ -10,6 +10,7 @@
     //SalaryCalculator();
     //ShowTime();
     //DaysOfLife();
-    DaysUntilNextBirthday();
+    //DaysUntilNextBirthday();
+    TypeDifference();
   }
 }
