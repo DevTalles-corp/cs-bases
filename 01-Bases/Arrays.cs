@@ -12,6 +12,16 @@ partial class Program
     Console.WriteLine($"Tercer elemento {numbersArray[2]}");
     // Tamaño arreglo
     Console.WriteLine($"El numero de elementos es: {numbersArray.Length}");
+    // Desde el final del arreglo ^
+    Console.WriteLine($"Último elemento {numbersArray[^1]}");
+    Console.WriteLine($"Penultimo elemento {numbersArray[^2]}");
+    // Rangos para obtener subarreglos ..
+    int[] firstThree = numbersArray[..3];
+    int[] fromIndexTwo = numbersArray[2..];
+    foreach (var number in fromIndexTwo)
+    {
+      Console.WriteLine(number);
+    }
 
   }
 }
