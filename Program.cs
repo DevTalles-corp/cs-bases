@@ -14,6 +14,7 @@
     // TypeDifference();
     // HandleNullables();
     // Operators();
-    Arrays();
+    // Arrays();
+    InventoryManager();
   }
 }
