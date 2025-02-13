@@ -15,6 +15,7 @@
     // HandleNullables();
     // Operators();
     // Arrays();
-    InventoryManager();
+    // InventoryManager();
+    ListDictionary();
   }
 }
