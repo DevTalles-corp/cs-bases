@@ -17,6 +17,7 @@
     // Arrays();
     // InventoryManager();
     // ListDictionary();
-    DataStructures();
+    // DataStructures();
+    Generics();
   }
 }
