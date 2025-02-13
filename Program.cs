@@ -16,6 +16,7 @@
     // Operators();
     // Arrays();
     // InventoryManager();
-    ListDictionary();
+    // ListDictionary();
+    DataStructures();
   }
 }
