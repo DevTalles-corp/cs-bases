@@ -6,5 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup Label="Simplificar el uso de la consola">
+    <Using Include="System.Console" Static="true" />
+  </ItemGroup>
 
 </Project>

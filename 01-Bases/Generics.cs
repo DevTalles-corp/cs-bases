@@ -4,8 +4,8 @@ partial class Program
   {
     string[] names = { "Juan", "Luis", "Diana" };
     int[] numbers = { 1, 2, 3, 25 };
-    System.Console.WriteLine($"Tamaño del arreglo númerico:  {GetArrayLength(numbers)}");
-    System.Console.WriteLine($"Tamaño del arreglo nombres: {GetArrayLength(names)}");
+    WriteLine($"Tamaño del arreglo númerico:  {GetArrayLength(numbers)}");
+    WriteLine($"Tamaño del arreglo nombres: {GetArrayLength(names)}");
 
     Box<int> numberBox = new Box<int> { Content = 50 };
     Box<string> stringBox = new Box<string> { Content = "Ahora soy texto" };
@@ -24,6 +24,6 @@ class Box<T>
 
   public void Show()
   {
-    System.Console.WriteLine($"Contenido: {Content}");
+    WriteLine($"Contenido: {Content}");
   }
 }
