@@ -19,6 +19,7 @@
     // ListDictionary();
     // DataStructures();
     // Generics();
-    Conditionals();
+    // Conditionals();
+    Loops();
   }
 }
