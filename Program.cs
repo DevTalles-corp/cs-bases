@@ -20,6 +20,7 @@
     // DataStructures();
     // Generics();
     // Conditionals();
-    Loops();
+    // Loops();
+    FizzBuzz();
   }
 }
