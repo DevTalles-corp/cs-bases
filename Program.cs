@@ -18,6 +18,7 @@
     // InventoryManager();
     // ListDictionary();
     // DataStructures();
-    Generics();
+    // Generics();
+    Conditionals();
   }
 }
