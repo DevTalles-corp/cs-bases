@@ -26,7 +26,8 @@
     // Loops();
     // FizzBuzz();
     // LoopControlExamples();
-    LoopGame();
+    // LoopGame();
+    Conversions();
     #endregion
   }
 }
