@@ -2,6 +2,7 @@
 {
   static void Main(string[] args)
   {
+    #region Sección2
     //Variables();
     //DataTypes();
     //ShowNumericTypes();
@@ -19,8 +20,12 @@
     // ListDictionary();
     // DataStructures();
     // Generics();
+    #endregion
+    #region Sección3
     // Conditionals();
     // Loops();
-    FizzBuzz();
+    // FizzBuzz();
+    LoopControlExamples();
+    #endregion
   }
 }
