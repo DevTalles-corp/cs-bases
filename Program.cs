@@ -27,7 +27,8 @@
     // FizzBuzz();
     // LoopControlExamples();
     // LoopGame();
-    Conversions();
+    // Conversions();
+    ConvertionToDateTime();
     #endregion
   }
 }
