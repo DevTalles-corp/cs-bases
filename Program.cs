@@ -25,7 +25,8 @@
     // Conditionals();
     // Loops();
     // FizzBuzz();
-    LoopControlExamples();
+    // LoopControlExamples();
+    LoopGame();
     #endregion
   }
 }
