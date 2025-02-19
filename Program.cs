@@ -29,7 +29,10 @@
     // LoopGame();
     // Conversions();
     // ConvertionToDateTime();
-    Functions();
+    // Functions();
+    // PrintMultiplicationTable(7, 15);
+    // PrintMultiplicationTable(tableLimit: 15, number: 10);
+    PrintFactorialTable(5);
     #endregion
   }
 }
