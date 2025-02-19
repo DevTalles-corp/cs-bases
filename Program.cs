@@ -28,7 +28,8 @@
     // LoopControlExamples();
     // LoopGame();
     // Conversions();
-    ConvertionToDateTime();
+    // ConvertionToDateTime();
+    Functions();
     #endregion
   }
 }
