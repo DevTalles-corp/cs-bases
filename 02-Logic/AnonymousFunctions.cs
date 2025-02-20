@@ -11,9 +11,9 @@ partial class Program
       WriteLine(even);
     }
   }
-  static Func<int, int> square = delegate (int number)
+  static readonly Func<int, int> square = delegate (int number)
   {
     return number * number;
   };
-  static Func<int, int> lambdaSquare = x => x * x;
+  static readonly Func<int, int> lambdaSquare = x => x * x;
 }
