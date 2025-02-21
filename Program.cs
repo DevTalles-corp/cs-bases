@@ -34,7 +34,8 @@
     // PrintMultiplicationTable(tableLimit: 15, number: 10);
     // PrintFactorialTable(5);
     // Tuples();
-    AnonymousFunctions();
+    // AnonymousFunctions();
+    TestingClass();
     #endregion
   }
 }
