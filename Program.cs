@@ -36,7 +36,8 @@
     // Tuples();
     // AnonymousFunctions();
     // TestingClass();
-    Properties();
+    // Properties();
+    Methods();
     #endregion
   }
 }
