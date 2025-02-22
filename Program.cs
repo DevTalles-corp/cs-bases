@@ -35,7 +35,8 @@
     // PrintFactorialTable(5);
     // Tuples();
     // AnonymousFunctions();
-    TestingClass();
+    // TestingClass();
+    Properties();
     #endregion
   }
 }
