@@ -37,11 +37,12 @@
     // AnonymousFunctions();
     // TestingClass();
     // Properties();
-    Methods();
+    // Methods();
     // Forzar la recolecció de basura
-    GC.Collect();
-    //Ejecuten los finalizadores
-    GC.WaitForPendingFinalizers();
+    // GC.Collect();
+    // //Ejecuten los finalizadores
+    // GC.WaitForPendingFinalizers();
+    ProductSalesDemo();
     #endregion
   }
 }
