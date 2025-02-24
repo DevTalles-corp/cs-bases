@@ -38,6 +38,10 @@
     // TestingClass();
     // Properties();
     Methods();
+    // Forzar la recolecció de basura
+    GC.Collect();
+    //Ejecuten los finalizadores
+    GC.WaitForPendingFinalizers();
     #endregion
   }
 }

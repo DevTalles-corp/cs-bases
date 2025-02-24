@@ -15,7 +15,7 @@ partial class Program
 
     // Un constructor
     Car sportsCar = new("Ferrari", 2020);
-    WriteLine(car.ShowInfo());
+    WriteLine(sportsCar.ShowInfo());
 
     //Sintaxis simplificada
     Car collectionCar = new Car { Model = "Cadillac", Year = 1980 };
@@ -40,12 +40,20 @@ class Car
   public string? Model { get; set; }
   public int? Year { get; set; }
 
+  //Constructor con parametros
   public Car(string model, int year)
   {
     Model = model;
     Year = year;
   }
+  //Constructor por defecto
   public Car() { }
+
+  //Destructor (~)
+  ~Car()
+  {
+    WriteLine("Destructor llamado. Recurso liberado");
+  }
 
   public void ChangeModel(string newModel)
   {
