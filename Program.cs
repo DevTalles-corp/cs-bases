@@ -43,7 +43,8 @@
     // //Ejecuten los finalizadores
     // GC.WaitForPendingFinalizers();
     // ProductSalesDemo();
-    BusFleet();
+    // BusFleet();
+    Inheritance();
     #endregion
   }
 }
