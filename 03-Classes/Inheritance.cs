@@ -25,6 +25,11 @@ class HogwartsStudent : Character
 {
   public string? House { get; set; }
 
+  public override void Greet()
+  {
+    WriteLine($"Hola, soy {Name} y soy estudiante.");
+  }
+
   public void ShowHouse()
   {
     WriteLine($"Pertenezco a la casa {House} en Hogwarts");
@@ -35,6 +40,10 @@ class HogwartsProfessor : Character
 {
   public string? Subject { get; set; }
 
+  public override void Greet()
+  {
+    WriteLine($"Hola, soy {Name} y soy profesor.");
+  }
   public void MySubject()
   {
     WriteLine($"Enseño {Subject} en Hogwarts");
