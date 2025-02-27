@@ -33,7 +33,7 @@ class Employee
   }
   public void ShowInfo()
   {
-    WriteLine($"Nombre: {Name}, Cargo: {Position}, Salario: {Salary}, Bono calculado: {CalculateBonus():C}");
+    WriteLine($"Nombre: {Name}, Cargo: {Position}, Salario: {Salary:C}, Bono calculado: {CalculateBonus():C}");
   }
 }
 class TeamLeader : Employee
