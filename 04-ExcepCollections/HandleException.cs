@@ -11,8 +11,16 @@ partial class Program
       amount = ReadLine();
       if (string.IsNullOrEmpty(amount)) return;
 
-      double amountValue = double.Parse(amount);
-      WriteLine($"El monto que introdujiste es el siguiente: {amountValue:C}");
+      if (double.TryParse(amount, out double amountValue))
+      {
+        WriteLine($"El monto que introdujiste es el siguiente: {amountValue:C}");
+      }
+      else
+      {
+        WriteLine("No se pudo convertir el texto a número");
+      }
+      // double amountValue = double.Parse(amount);
+      ValidateAge(16);
     }
     catch (DivideByZeroException)
     {
@@ -29,6 +37,12 @@ partial class Program
       Console.ForegroundColor = ConsoleColor.Red;
       WriteLine(ex.Message);
     }
-
+  }
+  static void ValidateAge(int age)
+  {
+    if (age < 18)
+    {
+      throw new ArgumentException("La edad debe ser mayor a 18");
+    }
   }
 }
