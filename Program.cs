@@ -47,7 +47,8 @@
     // Inheritance();
     // AbstracClassExamples();
     // Visibility();
-    ShowEmpoyeesInformation();
+    // ShowEmpoyeesInformation();
+    HandleException();
     #endregion
   }
 }
