@@ -37,6 +37,11 @@ partial class Program
       Console.ForegroundColor = ConsoleColor.Red;
       WriteLine(ex.Message);
     }
+    finally
+    {
+      Console.ResetColor();
+      WriteLine("Esto siempre se ejecutará...");
+    }
   }
   static void ValidateAge(int age)
   {
