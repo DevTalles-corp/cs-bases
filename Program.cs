@@ -48,7 +48,8 @@
     // AbstracClassExamples();
     // Visibility();
     // ShowEmpoyeesInformation();
-    HandleException();
+    // HandleException();
+    Collections();
     #endregion
   }
 }
