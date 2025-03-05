@@ -49,7 +49,8 @@
     // Visibility();
     // ShowEmpoyeesInformation();
     // HandleException();
-    Collections();
+    // Collections();
+    Linq();
     #endregion
   }
 }
