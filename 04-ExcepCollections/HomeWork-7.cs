@@ -45,6 +45,7 @@ class Sale
 
   public Sale(string product, string category, double amount)
   {
+    // Propiedades de Venta
     Product = product;
     Category = category;
     Amount = amount;
