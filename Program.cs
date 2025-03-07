@@ -50,7 +50,8 @@
     // ShowEmpoyeesInformation();
     // HandleException();
     // Collections();
-    Linq();
+    // Linq();
+    AdvancedLinq.Program.AdvancedLINQ();
     #endregion
   }
 }
