@@ -54,7 +54,8 @@
     // AdvancedLinq.Program.AdvancedLINQ();
     // SalesAnalysis();
 
-    FileExample();
+    // FileExample();
+    DirectoryExample();
     #endregion
   }
 }
