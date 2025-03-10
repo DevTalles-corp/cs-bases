@@ -56,7 +56,8 @@
 
     // FileExample();
     // DirectoryExample();
-    PathExample();
+    // PathExample();
+    WriteFileExample();
     #endregion
   }
 }
