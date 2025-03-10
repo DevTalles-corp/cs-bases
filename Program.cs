@@ -57,7 +57,8 @@
     // FileExample();
     // DirectoryExample();
     // PathExample();
-    WriteFileExample();
+    // WriteFileExample();
+    ManageJsonFile.Program.ManageJsonFile();
     #endregion
   }
 }

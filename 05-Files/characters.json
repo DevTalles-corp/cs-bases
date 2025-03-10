@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Name": "Peter Parker",
+    "Alias": "Spider",
+    "Team": "Avengers"
+  },
+  {
+    "Id": 2,
+    "Name": "Tony Stark",
+    "Alias": "Iron Man",
+    "Team": "Avengers"
+  },
+  {
+    "Id": 3,
+    "Name": "Steve Rogers",
+    "Alias": "Capitán América",
+    "Team": "Avengers"
+  }
+]
