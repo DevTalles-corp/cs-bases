@@ -55,7 +55,8 @@
     // SalesAnalysis();
 
     // FileExample();
-    DirectoryExample();
+    // DirectoryExample();
+    PathExample();
     #endregion
   }
 }
