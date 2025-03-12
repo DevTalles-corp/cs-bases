@@ -9,5 +9,8 @@
   <ItemGroup Label="Simplificar el uso de la consola">
     <Using Include="System.Console" Static="true" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BetterConsoleTables" Version="2.0.5-rc1" />
+  </ItemGroup>
 
 </Project>
