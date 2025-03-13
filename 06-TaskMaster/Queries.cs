@@ -1,3 +1,4 @@
+using System.Data;
 using BetterConsoles.Tables;
 using BetterConsoles.Tables.Configuration;
 
@@ -34,6 +35,37 @@ namespace TaskMaster
         Tasks.Add(newTask);
         ForegroundColor = ConsoleColor.Green;
         WriteLine("Tarea añadida con éxito");
+        ResetColor();
+        return Tasks;
+      }
+      catch (Exception ex)
+      {
+        ForegroundColor = ConsoleColor.Red;
+        WriteLine(ex.Message);
+        return Tasks;
+      }
+    }
+    public List<Task> MarkAsCompleted()
+    {
+      try
+      {
+        ResetColor();
+        Clear();
+        WriteLine("---Marcar tarea como completada---");
+        Write("Ingrese el id de la tarea que sea marcar como completada: ");
+        var id = ReadLine()!;
+        Task task = Tasks.Find(t => t.Id == id)!;
+        if (task == null)
+        {
+          ForegroundColor = ConsoleColor.Red;
+          WriteLine("No se encontró la tarea con el ID proporcionado");
+          ResetColor();
+          return Tasks;
+        }
+        task.Completed = true;
+        task.ModifiedAt = DateTime.Now;
+        ForegroundColor = ConsoleColor.Green;
+        WriteLine("Tarea marcar como completada con éxito");
         ResetColor();
         return Tasks;
       }
