@@ -22,13 +22,5 @@
     "CreatedAt": "2025-03-11T15:20:53.051415-04:00",
     "ModifiedAt": "2025-03-12T13:16:17.74727-04:00",
     "Deleted": false
-  },
-  {
-    "Id": "f78b671",
-    "Description": "Pintar cuarto de baño",
-    "Completed": false,
-    "CreatedAt": "2025-03-13T12:44:49.144911-04:00",
-    "ModifiedAt": "2025-03-13T15:32:28.944474-04:00",
-    "Deleted": false
   }
 ]
