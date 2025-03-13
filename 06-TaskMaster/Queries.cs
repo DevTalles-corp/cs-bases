@@ -181,7 +181,41 @@ namespace TaskMaster
       catch (Exception ex)
       {
         ForegroundColor = ConsoleColor.Red;
-        WriteLine($"Ocurrió un error al filtrar las tareas {ex.Message}");
+        WriteLine($"Ocurrió un error al filtrar las tareas: {ex.Message}");
+      }
+    }
+    public void TasksByDescription()
+    {
+      Clear();
+      try
+      {
+        ResetColor();
+        WriteLine("---Tareas por descripción---");
+        Write("Ingrese la descripción de las tareas a buscar: ");
+        string description = ReadLine()!;
+        List<Task> matchingTasks = Tasks.FindAll(t => t.Description?.Contains(description, StringComparison.OrdinalIgnoreCase) ?? false);
+        if (matchingTasks.Count == 0)
+        {
+          ForegroundColor = ConsoleColor.Red;
+          WriteLine("No se encontrarón tareas con la descripción proporcionada.");
+          ResetColor();
+          return;
+        }
+        Table table = new Table("Id", "Descripción", "Estado");
+        foreach (var task in matchingTasks)
+        {
+          table.AddRow(task.Id, task.Description, task.Completed ? "Completada" : "");
+        }
+        table.Config = TableConfig.Unicode();
+
+        Write(table.ToString());
+        ReadKey();
+
+      }
+      catch (Exception ex)
+      {
+        ForegroundColor = ConsoleColor.Red;
+        WriteLine($"Ocurrió un error al filtrar las tareas por descripción: {ex.Message}");
       }
     }
   }
