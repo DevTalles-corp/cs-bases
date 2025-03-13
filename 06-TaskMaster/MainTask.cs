@@ -42,7 +42,7 @@ namespace TaskMaster
             RemoveTask();
             break;
           case "6":
-            //TasksByState();
+            queries.TasksByState();
             break;
           case "7":
             //TasksByDescription();
